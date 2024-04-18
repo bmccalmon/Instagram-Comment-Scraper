@@ -1,7 +1,7 @@
-# Usage
+## Usage
 
 `python3 parse_comments.py <file_location>`
 
-# Output
+## Output
 
 ![example](example.png)
