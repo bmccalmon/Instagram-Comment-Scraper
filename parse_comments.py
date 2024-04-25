@@ -39,7 +39,7 @@ def export_to_csv(extracted_comments):
     data = extracted_comments
     filename = output_file
     with open(filename, 'w', newline="") as file:
-        csvwriter = csv.writer(file)
+        csvwriter = csv.writer(file, delimiter='\t')
         csvwriter.writerow(header)
         csvwriter.writerows(data)
 
